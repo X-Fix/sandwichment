@@ -1,0 +1,19 @@
+{
+  "name": "sandwichment",
+  "version": "0.0.1",
+  "description": "An app for managing sandwich orders",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js -watch server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cameron.stroebel08@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7"
+  }
+}
